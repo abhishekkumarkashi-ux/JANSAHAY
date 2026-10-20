@@ -150,7 +150,7 @@ app.use((req, res, next) => {
 
 app.listen(port, () => {
   console.log(`\n==================================================`);
-  console.log(`  🚀 JanSahay running on a single link:`);
+  console.log(`  🚀 FindMyFit running on a single link:`);
   console.log(`  ➜ http://localhost:${port}`);
   console.log(`==================================================\n`);
 });

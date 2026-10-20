@@ -130,12 +130,12 @@ const copy = {
     checkedDateLabel: 'Source verified on:',
     welcomeEyebrow: 'Verified Government Schemes Guidance',
     welcomeTitle: 'Check your eligibility with confidence.',
-    welcomeBody: 'JanSahay guides you step-by-step through official Indian Government welfare schemes. Check eligibility criteria, verify document readiness, and prepare your application summary before heading to the official portals.',
+    welcomeBody: 'FindMyFit guides you step-by-step through official Indian Government welfare schemes. Check eligibility criteria, verify document readiness, and prepare your application summary before heading to the official portals.',
     startSample: 'Try the sample journey',
     startFresh: 'Start with my details',
     language: 'Language',
     privacyTitle: 'Your privacy is protected',
-    privacyBody: 'JanSahay does not collect or store your Aadhaar number, bank account number, passwords, or login credentials. All inputs remain in your browser session.',
+    privacyBody: 'FindMyFit does not collect or store your Aadhaar number, bank account number, passwords, or login credentials. All inputs remain in your browser session.',
     heroNote: 'Guided exploration for students and farmer families.',
     trustedLabel: 'Verified rules from official myScheme, NSP, and PM-KISAN portals',
     profile: 'Profile',
@@ -273,12 +273,12 @@ const copy = {
     draftMissing: 'Some preparation fields are missing or require confirmation',
     saveDraft: 'Validate draft details',
     preview: 'Application Summary Preview',
-    noSubmit: 'JanSahay does not submit applications or store credentials. Complete final submission on the official portal.',
+    noSubmit: 'FindMyFit does not submit applications or store credentials. Complete final submission on the official portal.',
     handoffHeading: 'Official Portal Handoff',
-    handoffExplainer: 'Follow the official steps below. JanSahay will open the government portal in a secure new tab.',
+    handoffExplainer: 'Follow the official steps below. FindMyFit will open the government portal in a secure new tab.',
     openOfficial: 'Continue to Official Portal',
     datesNoticeLabel: 'Application Window Notice:',
-    footer: 'JanSahay · Independent citizen assistance prototype · Sourced from official portals (myScheme, NSP, PM-KISAN). Not affiliated with any ministry.',
+    footer: 'FindMyFit · Independent citizen assistance prototype · Sourced from official portals (myScheme, NSP, PM-KISAN). Not affiliated with any ministry.',
     missingField: 'Not provided yet',
     readyField: 'Ready',
     subDistrictLabel: 'Sub-District / Tehsil / Taluka',
@@ -291,7 +291,7 @@ const copy = {
     kisanDraftTitle: 'PM-KISAN Application Preparation Summary',
     kisanDraftSubtitle: 'Review and prepare your non-sensitive details before registering on the official portal or visiting a CSC.',
     kisanHandoffTitle: 'Official PM-KISAN Application Routes',
-    kisanHandoffBody: 'Choose your preferred official registration route. JanSahay does not submit applications or collect login credentials.',
+    kisanHandoffBody: 'Choose your preferred official registration route. FindMyFit does not submit applications or collect login credentials.',
     openKisanPortal: 'Open PM-KISAN Portal (Self Registration)',
     openCscLocator: 'Find Nearest Common Service Centre (CSC)',
     officialAuthorityDisclaimer: 'State Government / UT Administration and District Verification Committees verify land records and make final approval and disbursal decisions.',
@@ -325,10 +325,10 @@ const copy = {
     docMissing: 'Need to obtain',
     docNeedsConfirm: 'Needs confirmation',
     mvHandoffTitle: 'Official Mahtari Vandan Application Routes',
-    mvHandoffBody: 'Visit the official Chhattisgarh portal to check active application cycles or submit. JanSahay does not submit applications or ask for portal passwords.',
+    mvHandoffBody: 'Visit the official Chhattisgarh portal to check active application cycles or submit. FindMyFit does not submit applications or ask for portal passwords.',
     openMahtariPortal: 'Open Official Mahtari Vandan Portal',
-    mvNoUploadNotice: 'No document upload required: JanSahay does not collect or store identity documents. Present originals directly to government field functionaries or during official portal submission.',
-    cgAffiliationDisclaimer: 'JanSahay is an independent citizen assistance prototype and is NOT officially affiliated with the Government of Chhattisgarh.',
+    mvNoUploadNotice: 'No document upload required: FindMyFit does not collect or store identity documents. Present originals directly to government field functionaries or during official portal submission.',
+    cgAffiliationDisclaimer: 'FindMyFit is an independent citizen assistance prototype and is NOT officially affiliated with the Government of Chhattisgarh.',
     mvMaritalMarried: 'Married Woman',
     mvMaritalWidowed: 'Widow',
     mvMaritalDivorced: 'Divorced Woman',
@@ -350,7 +350,7 @@ const copy = {
     statusUnconfirmedLabel: 'Unconfirmed / Dynamic — Check Portal',
     verifyOnPortalNote: 'Please verify this detail on the official portal.',
     windowBannerTitle: 'Application Window & Deadline Verification',
-    windowUnconfirmedNotice: 'Application windows and deadlines cannot be permanently confirmed as they change dynamically each cycle. JanSahay does not mark them as open or closed. Please verify current active status directly on the official portal.',
+    windowUnconfirmedNotice: 'Application windows and deadlines cannot be permanently confirmed as they change dynamically each cycle. FindMyFit does not mark them as open or closed. Please verify current active status directly on the official portal.',
   },
   hi: {
     subtitle: 'सरकारी योजनाओं तक सरल और पारदर्शी मार्गदर्शन',
@@ -360,12 +360,12 @@ const copy = {
     checkedDateLabel: 'स्रोत सत्यापन तिथि:',
     welcomeEyebrow: 'सत्यापित सरकारी योजनाएँ मार्गदर्शन',
     welcomeTitle: 'विश्वसनीयता के साथ अपनी पात्रता जाँचें।',
-    welcomeBody: 'जनसहाय आपको भारत सरकार की प्रमुख कल्याणकारी योजनाओं के नियमों को समझने, पात्रता जाँचने और आधिकारिक पोर्टल पर आवेदन से पूर्व तैयारी करने में चरण-दर-चरण मार्गदर्शन प्रदान करता है।',
+    welcomeBody: 'FindMyFit आपको भारत सरकार की प्रमुख कल्याणकारी योजनाओं के नियमों को समझने, पात्रता जाँचने और आधिकारिक पोर्टल पर आवेदन से पूर्व तैयारी करने में चरण-दर-चरण मार्गदर्शन प्रदान करता है।',
     startSample: 'नमूना यात्रा देखें',
     startFresh: 'मेरे विवरण से शुरू करें',
     language: 'भाषा',
     privacyTitle: 'आपकी गोपनीयता सुरक्षित है',
-    privacyBody: 'जनसहाय आपका आधार नंबर, बैंक खाता संख्या, पासवर्ड या लॉगिन विवरण एकत्र या संग्रहीत नहीं करता। सभी विवरण केवल आपके ब्राउज़र सत्र में रहते हैं।',
+    privacyBody: 'FindMyFit आपका आधार नंबर, बैंक खाता संख्या, पासवर्ड या लॉगिन विवरण एकत्र या संग्रहीत नहीं करता। सभी विवरण केवल आपके ब्राउज़र सत्र में रहते हैं।',
     heroNote: 'विद्यार्थियों और किसान परिवारों के लिए मार्गदर्शिका।',
     trustedLabel: 'myScheme, NSP और PM-KISAN के आधिकारिक नियमों पर आधारित',
     profile: 'प्रोफ़ाइल',
@@ -503,12 +503,12 @@ const copy = {
     draftMissing: 'कुछ तैयारी फ़ील्ड खाली हैं या पुष्टि की आवश्यकता है',
     saveDraft: 'ड्राफ़्ट विवरण मान्य करें',
     preview: 'आवेदन सारांश पूर्वावलोकन',
-    noSubmit: 'जनसहाय आवेदन जमा नहीं करता और न ही क्रेडेंशियल सहेजता है। अंतिम आवेदन आधिकारिक पोर्टल पर पूरा करें।',
+    noSubmit: 'FindMyFit आवेदन जमा नहीं करता और न ही क्रेडेंशियल सहेजता है। अंतिम आवेदन आधिकारिक पोर्टल पर पूरा करें।',
     handoffHeading: 'आधिकारिक पोर्टल हैंड-ऑफ',
-    handoffExplainer: 'नीचे दिए गए आधिकारिक चरणों का पालन करें। जनसहाय सरकारी पोर्टल को सुरक्षित नए टैब में खोलेगा।',
+    handoffExplainer: 'नीचे दिए गए आधिकारिक चरणों का पालन करें। FindMyFit सरकारी पोर्टल को सुरक्षित नए टैब में खोलेगा।',
     openOfficial: 'आधिकारिक पोर्टल पर जाएँ',
     datesNoticeLabel: 'आवेदन समय-सीमा सूचना:',
-    footer: 'जनसहाय · स्वतंत्र नागरिक सहायता प्रोटोटाइप · आधिकारिक पोर्टलों (myScheme, NSP, PM-KISAN) पर आधारित। किसी मंत्रालय से संबद्ध नहीं।',
+    footer: 'FindMyFit · स्वतंत्र नागरिक सहायता प्रोटोटाइप · आधिकारिक पोर्टलों (myScheme, NSP, PM-KISAN) पर आधारित। किसी मंत्रालय से संबद्ध नहीं।',
     missingField: 'अभी तक दर्ज नहीं',
     readyField: 'तैयार',
     subDistrictLabel: 'उप-ज़िला / तहसील / ब्लॉक',
@@ -521,7 +521,7 @@ const copy = {
     kisanDraftTitle: 'पीएम-किसान आवेदन तैयारी सारांश',
     kisanDraftSubtitle: 'आधिकारिक पोर्टल पर जाने या सीएससी जाने से पहले अपने गैर-संवेदनशील विवरण की समीक्षा करें।',
     kisanHandoffTitle: 'आधिकारिक पीएम-किसान आवेदन मार्ग',
-    kisanHandoffBody: 'अपना पसंदीदा आधिकारिक पंजीकरण मार्ग चुनें। जनसहाय आवेदन जमा नहीं करता।',
+    kisanHandoffBody: 'अपना पसंदीदा आधिकारिक पंजीकरण मार्ग चुनें। FindMyFit आवेदन जमा नहीं करता।',
     openKisanPortal: 'पीएम-किसान पोर्टल खोलें (स्व-पंजीकरण)',
     openCscLocator: 'निकटतम कॉमन सर्विस सेंटर (CSC) खोजें',
     officialAuthorityDisclaimer: 'राज्य सरकार / केंद्र शासित प्रदेश प्रशासन एवं ज़िला सत्यापन समितियाँ राजस्व अभिलेखों का सत्यापन कर अंतिम पात्रता और भुगतान तय करती हैं।',
@@ -555,10 +555,10 @@ const copy = {
     docMissing: 'प्राप्त करना बाकी है',
     docNeedsConfirm: 'पुष्टि आवश्यक है',
     mvHandoffTitle: 'आधिकारिक मह्तारी वंदन आवेदन मार्ग',
-    mvHandoffBody: 'सक्रिय आवेदन चक्र की जाँच या आवेदन के लिए आधिकारिक छत्तीसगढ़ पोर्टल पर जाएँ। जनसहाय आवेदन जमा नहीं करता और न ही पासवर्ड माँगता है।',
+    mvHandoffBody: 'सक्रिय आवेदन चक्र की जाँच या आवेदन के लिए आधिकारिक छत्तीसगढ़ पोर्टल पर जाएँ। FindMyFit आवेदन जमा नहीं करता और न ही पासवर्ड माँगता है।',
     openMahtariPortal: 'आधिकारिक मह्तारी वंदन पोर्टल खोलें',
-    mvNoUploadNotice: 'दस्तावेज़ अपलोड की आवश्यकता नहीं: जनसहाय पहचान दस्तावेज़ एकत्र या संग्रहीत नहीं करता। मूल दस्तावेज़ सीधे मैदानी कार्यकर्ताओं या आधिकारिक पोर्टल पर ही प्रस्तुत करें।',
-    cgAffiliationDisclaimer: 'जनसहाय एक स्वतंत्र नागरिक सहायता प्रोटोटाइप है और छत्तीसगढ़ शासन से संबद्ध नहीं है।',
+    mvNoUploadNotice: 'दस्तावेज़ अपलोड की आवश्यकता नहीं: FindMyFit पहचान दस्तावेज़ एकत्र या संग्रहीत नहीं करता। मूल दस्तावेज़ सीधे मैदानी कार्यकर्ताओं या आधिकारिक पोर्टल पर ही प्रस्तुत करें।',
+    cgAffiliationDisclaimer: 'FindMyFit एक स्वतंत्र नागरिक सहायता प्रोटोटाइप है और छत्तीसगढ़ शासन से संबद्ध नहीं है।',
     mvMaritalMarried: 'विवाहित महिला',
     mvMaritalWidowed: 'विधवा',
     mvMaritalDivorced: 'तलाकशुदा महिला',
@@ -580,7 +580,7 @@ const copy = {
     statusUnconfirmedLabel: 'पुष्टि बाकी — पोर्टल देखें',
     verifyOnPortalNote: 'कृपया आधिकारिक पोर्टल पर इस विवरण की पुष्टि करें।',
     windowBannerTitle: 'सक्रिय आवेदन समय-सीमा व पंजीकरण तिथियों की पुष्टि करें',
-    windowUnconfirmedNotice: 'आवेदन समय-सीमा व पंजीकरण तिथियाँ शैक्षणिक/वित्तीय चक्र के अनुसार बदलती रहती हैं। जनसहाय इन्हें खुला या बंद घोषित नहीं करता। कृपया सक्रिय स्थिति सीधे आधिकारिक पोर्टल पर देखें।',
+    windowUnconfirmedNotice: 'आवेदन समय-सीमा व पंजीकरण तिथियाँ शैक्षणिक/वित्तीय चक्र के अनुसार बदलती रहती हैं। FindMyFit इन्हें खुला या बंद घोषित नहीं करता। कृपया सक्रिय स्थिति सीधे आधिकारिक पोर्टल पर देखें।',
   },
 };
 
@@ -928,7 +928,7 @@ export default function App() {
       <header className="topbar">
         <button className="brand" onClick={() => setScreen('welcome')}>
           <span className="brand-mark">{isKisan ? <Tractor size={22} strokeWidth={2.4} /> : isMahtari ? <Heart size={22} strokeWidth={2.4} /> : <GraduationCap size={22} strokeWidth={2.4} />}</span>
-          <span className="brand-name">Jan<span>Sahay</span><small>{t.subtitle}</small></span>
+          <span className="brand-name">Find<span>MyFit</span><small>{t.subtitle}</small></span>
         </button>
         <div className="top-actions">
           <span className="session-note"><LockKeyhole size={14} /> {t.privacyShort}</span>
@@ -2291,8 +2291,8 @@ export default function App() {
                         <div>
                           <strong>{lang === 'en' ? 'No document upload required: ' : 'दस्तावेज़ अपलोड की आवश्यकता नहीं: '}</strong>
                           {lang === 'en'
-                            ? 'To protect sensitive farmer revenue records and Aadhaar details, JanSahay relies on your voluntary confirmation. You will submit original documents directly to the State revenue officials or during CSC biometric e-KYC.'
-                            : 'संवेदनशील भूलेख और आधार विवरणों की सुरक्षा के लिए जनसहाय केवल आपकी स्व-पुष्टि पर निर्भर करता है। मूल दस्तावेज़ सीधे राज्य राजस्व अधिकारियों या सीएससी बायोमेट्रिक ई-केवाईसी के समय ही प्रस्तुत करने होते हैं।'}
+                            ? 'To protect sensitive farmer revenue records and Aadhaar details, FindMyFit relies on your voluntary confirmation. You will submit original documents directly to the State revenue officials or during CSC biometric e-KYC.'
+                            : 'संवेदनशील भूलेख और आधार विवरणों की सुरक्षा के लिए FindMyFit केवल आपकी स्व-पुष्टि पर निर्भर करता है। मूल दस्तावेज़ सीधे राज्य राजस्व अधिकारियों या सीएससी बायोमेट्रिक ई-केवाईसी के समय ही प्रस्तुत करने होते हैं।'}
                         </div>
                       </div>
                     </div>
@@ -2874,7 +2874,7 @@ export default function App() {
                     <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '12px', marginTop: '16px', paddingTop: '14px', borderTop: '1px solid #e8e3db' }}>
                       <span style={{ fontSize: '11px', color: '#4a473f', display: 'flex', alignItems: 'center', gap: '6px' }}>
                         <LockKeyhole size={14} color="#1d5c43" />
-                        {lang === 'en' ? 'Opens in a secure new tab. JanSahay will not access your login or OTP.' : 'सुरक्षित नई टैब में खुलेगा। जनसहाय आपके लॉगिन या ओटीपी तक नहीं पहुँचेगा।'}
+                        {lang === 'en' ? 'Opens in a secure new tab. FindMyFit will not access your login or OTP.' : 'सुरक्षित नई टैब में खुलेगा। FindMyFit आपके लॉगिन या ओटीपी तक नहीं पहुँचेगा।'}
                       </span>
                       {isUSP && (
                         <button className="button button-primary" onClick={openOfficialPortal}>

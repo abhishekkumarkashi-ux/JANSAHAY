@@ -1,8 +1,8 @@
-# JanSahay
+# FindMyFit
 
-JanSahay is a hackathon prototype for exploring possible government-benefit matches, understanding requirements, checking document readiness, and preparing an editable application draft.
+FindMyFit is a prototype for exploring possible government-benefit matches, understanding requirements, checking document readiness, and preparing an editable application draft.
 
-**This is not a government service.** The bundled Student learning support record and its eligibility rules are invented demo data. It does not represent a real scheme, benefit, payment, official source, or application form. JanSahay never submits an application. The only external link is the separate official myScheme catalogue, where people can search real schemes.
+**This is not a government service.** The bundled Student learning support record and its eligibility rules are invented demo data. It does not represent a real scheme, benefit, payment, official source, or application form. FindMyFit never submits an application. The only external link is the separate official myScheme catalogue, where people can search real schemes.
 
 ## Requirements
 

@@ -687,8 +687,8 @@ export const schemes: Scheme[] = [
     applicationUrl: 'https://mahtarivandan.cgstate.gov.in/',
     sourceCheckedDate: 'October 20, 2026',
     sourceNotice: {
-      en: 'Primary facts checked against official portal mahtarivandan.cgstate.gov.in on October 20, 2026. Detailed eligibility criteria (residence, age 21+, marital categories) are sourced from official DPR Chhattisgarh guidance published in 2024 and should be verified on the portal for the current cycle. JanSahay is an independent guide and is not affiliated with the Government of Chhattisgarh.',
-      hi: 'प्राथमिक तथ्य आधिकारिक पोर्टल mahtarivandan.cgstate.gov.in से 20 अक्टूबर 2026 को जाँचे गए। विस्तृत पात्रता नियम (निवास, 21+ आयु, वैवाहिक श्रेणियाँ) 2024 में प्रकाशित आधिकारिक जनसंपर्क छत्तीसगढ़ दिशानिर्देशों से लिए गए हैं, जिनकी वर्तमान चक्र में पोर्टल से पुष्टि आवश्यक है। जनसहाय एक स्वतंत्र मार्गदर्शक है और छत्तीसगढ़ शासन से संबद्ध नहीं है।',
+      en: 'Primary facts checked against official portal mahtarivandan.cgstate.gov.in on October 20, 2026. Detailed eligibility criteria (residence, age 21+, marital categories) are sourced from official DPR Chhattisgarh guidance published in 2024 and should be verified on the portal for the current cycle. FindMyFit is an independent guide and is not affiliated with the Government of Chhattisgarh.',
+      hi: 'प्राथमिक तथ्य आधिकारिक पोर्टल mahtarivandan.cgstate.gov.in से 20 अक्टूबर 2026 को जाँचे गए। विस्तृत पात्रता नियम (निवास, 21+ आयु, वैवाहिक श्रेणियाँ) 2024 में प्रकाशित आधिकारिक जनसंपर्क छत्तीसगढ़ दिशानिर्देशों से लिए गए हैं, जिनकी वर्तमान चक्र में पोर्टल से पुष्टि आवश्यक है। FindMyFit एक स्वतंत्र मार्गदर्शक है और छत्तीसगढ़ शासन से संबद्ध नहीं है।',
     },
     datesNotice: {
       en: 'Current application intake periods and installment dates are announced officially by the Chhattisgarh Women & Child Development Department. Do not rely on dated 2024 deadlines; please check current active status directly on the official portal.',

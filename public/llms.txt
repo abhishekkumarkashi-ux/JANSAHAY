@@ -1,6 +1,6 @@
-# JanSahay
+# FindMyFit
 
-> JanSahay is an open prototype for exploring government-benefit matches, understanding requirements, checking document readiness, and preparing editable application drafts.
+> FindMyFit is an open prototype for exploring government-benefit matches, understanding requirements, checking document readiness, and preparing editable application drafts.
 
 ## Supported Schemes
 - **PM-USP CSSS (Scholarship)**: Central Sector Scheme of Scholarship for College and University Students. Up to ₹20,000/yr for students above the 80th percentile.
