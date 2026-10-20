@@ -4,7 +4,7 @@ import {
   ExternalLink, FileCheck2, FileImage, FileText, HeartHandshake, Info, Languages, LockKeyhole,
   RotateCcw, ShieldCheck, Sparkles, UploadCloud, UserRound, X,
   Building2, GraduationCap, IndianRupee, AlertTriangle, ClipboardCheck,
-  Tractor, Landmark, Heart, Clock,
+  Tractor, Landmark, Heart, Clock, Users,
 } from 'lucide-react';
 import {
   evaluateScheme, schemes,
@@ -128,16 +128,47 @@ const copy = {
     officialBadge: 'OFFICIAL SCHEME GUIDANCE',
     sourceLabel: 'Official source:',
     checkedDateLabel: 'Source verified on:',
-    welcomeEyebrow: 'Verified Government Schemes Guidance',
-    welcomeTitle: 'Check your eligibility with confidence.',
-    welcomeBody: 'FindMyFit guides you step-by-step through official Indian Government welfare schemes. Check eligibility criteria, verify document readiness, and prepare your application summary before heading to the official portals.',
+    welcomeEyebrow: 'Verified Government Schemes Guide',
+    welcomeTitle: 'Find government schemes that may fit you.',
+    welcomeBody: 'Answer a few simple questions to see possible schemes, understand eligibility, prepare documents, and continue to the official application portal.',
+    findSchemesBtn: 'Find schemes',
+    browseSchemesBtn: 'Browse schemes',
+    disclaimerNote: 'FindMyFit helps you understand rules and prepare documents. It does not guarantee eligibility or submit applications on the government’s behalf.',
     startSample: 'Try the sample journey',
     startFresh: 'Start with my details',
     language: 'Language',
     privacyTitle: 'Your privacy is protected',
     privacyBody: 'FindMyFit does not collect or store your Aadhaar number, bank account number, passwords, or login credentials. All inputs remain in your browser session.',
-    heroNote: 'Guided exploration for students and farmer families.',
+    heroNote: 'Guided exploration for students, farmers, and women.',
     trustedLabel: 'Verified rules from official myScheme, NSP, and PM-KISAN portals',
+    journeyHeading: 'How FindMyFit works in 3 simple steps',
+    journeySubhead: 'A transparent, private, and guided way to discover welfare benefits.',
+    journeyStep1Title: 'Tell us about yourself',
+    journeyStep1Desc: 'Answer only basic questions needed — no Aadhaar, passwords, or login required.',
+    journeyStep2Title: 'See possible matches',
+    journeyStep2Desc: 'Understand why a scheme may fit based on transparent, official criteria.',
+    journeyStep3Title: 'Get ready to apply',
+    journeyStep3Desc: 'Review documents, prepare your details, and continue through the official portal.',
+    categoryChooseTitle: 'Choose the category that best describes you:',
+    catStudent: 'Student',
+    catFarmer: 'Farmer',
+    catWoman: 'Woman',
+    catOther: 'Other',
+    catOtherNotice: 'Currently, FindMyFit supports detailed guided pathways for Students, Farmers, and Women. You can browse all available schemes below or search over 3,000+ schemes on the official myScheme portal.',
+    browseAllSchemesHeading: 'Supported Government Schemes',
+    browseAllSchemesSubhead: 'Scan benefits, key requirements, and required documents. Select any scheme to view detailed rules or start document preparation.',
+    intendedAudienceLabel: 'Intended audience:',
+    benefitLabel: 'Listed benefit:',
+    whyMayMatchLabel: 'Why this may match you:',
+    mayMatchPill: 'May match — check requirements',
+    checkRequirementsPill: 'Check these requirements',
+    docsToPrepareLabel: 'Key documents to prepare:',
+    viewDetailsBtn: 'View details',
+    prepareDocsBtn: 'Prepare documents',
+    continueOnPortalBtn: 'Continue on official portal',
+    trySampleLabel: 'Or explore with a sample profile:',
+    seeMatchesBtn: 'See possible matches',
+    preliminaryNotice: 'Preliminary guidance aid only — official verification by the Government determines final eligibility and approval.',
     profile: 'Profile',
     explore: 'Overview',
     eligibilityCheck: 'Eligibility',
@@ -175,9 +206,9 @@ const copy = {
     freshPathwayDesc: 'First-time applicant entering 1st year of regular graduation or professional degree.',
     renewalPathway: 'Renewal Application',
     renewalPathwayDesc: 'Continuing student renewing for 2nd, 3rd, 4th, or 5th year of ongoing degree study.',
-    matchPossible: 'Possible match',
-    matchNo: 'Does not appear to match',
-    matchNeed: 'Need more information',
+    matchPossible: 'May match — check requirements',
+    matchNo: 'May not match criteria',
+    matchNeed: 'Check these requirements',
     benefitsHeading: 'Listed Benefits & Assistance',
     rulesHeading: 'Key Eligibility Rules',
     exclusionsHeading: 'Exclusions (Who is not eligible)',
@@ -358,16 +389,47 @@ const copy = {
     officialBadge: 'आधिकारिक योजना मार्गदर्शन',
     sourceLabel: 'आधिकारिक स्रोत:',
     checkedDateLabel: 'स्रोत सत्यापन तिथि:',
-    welcomeEyebrow: 'सत्यापित सरकारी योजनाएँ मार्गदर्शन',
-    welcomeTitle: 'विश्वसनीयता के साथ अपनी पात्रता जाँचें।',
-    welcomeBody: 'FindMyFit आपको भारत सरकार की प्रमुख कल्याणकारी योजनाओं के नियमों को समझने, पात्रता जाँचने और आधिकारिक पोर्टल पर आवेदन से पूर्व तैयारी करने में चरण-दर-चरण मार्गदर्शन प्रदान करता है।',
+    welcomeEyebrow: 'सत्यापित सरकारी योजनाएँ मार्गदर्शिका',
+    welcomeTitle: 'अपनी पात्रता के अनुसार उपयुक्त सरकारी योजनाएँ खोजें।',
+    welcomeBody: 'कुछ आसान सवालों के जवाब देकर संभावित योजनाएँ देखें, पात्रता समझें, दस्तावेज़ तैयार करें और आधिकारिक पोर्टल पर आवेदन जारी रखें।',
+    findSchemesBtn: 'योजनाएँ खोजें',
+    browseSchemesBtn: 'योजनाएँ देखें',
+    disclaimerNote: 'FindMyFit आपको नियम समझने और दस्तावेज़ तैयार करने में सहायता करता है। यह पात्रता की गारंटी नहीं देता और न ही सरकार की ओर से आवेदन जमा करता है।',
     startSample: 'नमूना यात्रा देखें',
     startFresh: 'मेरे विवरण से शुरू करें',
     language: 'भाषा',
     privacyTitle: 'आपकी गोपनीयता सुरक्षित है',
     privacyBody: 'FindMyFit आपका आधार नंबर, बैंक खाता संख्या, पासवर्ड या लॉगिन विवरण एकत्र या संग्रहीत नहीं करता। सभी विवरण केवल आपके ब्राउज़र सत्र में रहते हैं।',
-    heroNote: 'विद्यार्थियों और किसान परिवारों के लिए मार्गदर्शिका।',
+    heroNote: 'विद्यार्थियों, किसानों और महिलाओं के लिए मार्गदर्शिका।',
     trustedLabel: 'myScheme, NSP और PM-KISAN के आधिकारिक नियमों पर आधारित',
+    journeyHeading: 'FindMyFit 3 सरल चरणों में कैसे काम करता है',
+    journeySubhead: 'सरकारी कल्याणकारी योजनाएँ खोजने का पारदर्शी, सुरक्षित और मार्गदर्शित तरीका।',
+    journeyStep1Title: 'अपने बारे में बताएँ',
+    journeyStep1Desc: 'केवल ज़रूरी बुनियादी सवालों के जवाब दें — आधार, पासवर्ड या लॉगिन की आवश्यकता नहीं।',
+    journeyStep2Title: 'संभावित योजनाएँ देखें',
+    journeyStep2Desc: 'पारदर्शी और आधिकारिक मानदंडों के आधार पर समझें कि कोई योजना आपके लिए क्यों उपयुक्त हो सकती है।',
+    journeyStep3Title: 'आवेदन की तैयारी करें',
+    journeyStep3Desc: 'दस्तावेज़ों की समीक्षा करें, विवरण तैयार करें और आधिकारिक पोर्टल पर सुरक्षित आगे बढ़ें।',
+    categoryChooseTitle: 'वह श्रेणी चुनें जो आपका सबसे अच्छा वर्णन करती है:',
+    catStudent: 'विद्यार्थी',
+    catFarmer: 'किसान',
+    catWoman: 'महिला',
+    catOther: 'अन्य',
+    catOtherNotice: 'वर्तमान में FindMyFit विद्यार्थियों, किसानों और महिलाओं के लिए विस्तृत मार्गदर्शिका प्रदान करता है। आप नीचे उपलब्ध योजनाओं को देख सकते हैं या आधिकारिक myScheme पोर्टल पर 3,000+ योजनाएँ खोज सकते हैं।',
+    browseAllSchemesHeading: 'समर्थित सरकारी योजनाएँ',
+    browseAllSchemesSubhead: 'लाभ, प्रमुख शर्तें और आवश्यक दस्तावेज़ देखें। विस्तृत नियम देखने या दस्तावेज़ तैयारी शुरू करने के लिए कोई भी योजना चुनें।',
+    intendedAudienceLabel: 'लक्षित वर्ग:',
+    benefitLabel: 'निर्धारित लाभ:',
+    whyMayMatchLabel: 'संभावित मिलान के कारण:',
+    mayMatchPill: 'संभावित मिलान — शर्तें देखें',
+    checkRequirementsPill: 'पात्रता शर्तें जाँचें',
+    docsToPrepareLabel: 'तैयार रखने हेतु प्रमुख दस्तावेज़:',
+    viewDetailsBtn: 'ब्योरा देखें',
+    prepareDocsBtn: 'दस्तावेज़ तैयार करें',
+    continueOnPortalBtn: 'आधिकारिक पोर्टल पर जाएँ',
+    trySampleLabel: 'या किसी नमूना प्रोफ़ाइल के साथ देखें:',
+    seeMatchesBtn: 'संभावित योजनाएँ देखें',
+    preliminaryNotice: 'केवल प्रारंभिक मार्गदर्शन सहायता — अंतिम पात्रता और स्वीकृति का निर्णय संबंधित सरकारी विभाग द्वारा किया जाता है।',
     profile: 'प्रोफ़ाइल',
     explore: 'योजना विवरण',
     eligibilityCheck: 'पात्रता जाँच',
@@ -405,9 +467,9 @@ const copy = {
     freshPathwayDesc: 'नियमित डिग्री के प्रथम वर्ष में प्रवेश लेने वाले प्रथम बार के आवेदक।',
     renewalPathway: 'नवीनीकरण (Renewal)',
     renewalPathwayDesc: 'डिग्री अध्ययन के 2रे, 3रे, 4थे या 5वें वर्ष में अध्ययन जारी रखने वाले छात्र।',
-    matchPossible: 'संभावित मिलान (पात्रता की संभावना)',
-    matchNo: 'नियम मेल नहीं खाते',
-    matchNeed: 'अधिक जानकारी की आवश्यकता',
+    matchPossible: 'संभावित मिलान — शर्तें देखें',
+    matchNo: 'शर्तों से मेल नहीं खाता',
+    matchNeed: 'पात्रता शर्तें जाँचें',
     benefitsHeading: 'निर्धारित लाभ एवं सहायता राशि',
     rulesHeading: 'मुख्य पात्रता नियम',
     exclusionsHeading: 'अपवर्जन (जो पात्र नहीं हैं)',
@@ -586,7 +648,6 @@ const copy = {
 
 type Copy = typeof copy.en;
 
-const groupIds: GroupId[] = ['student', 'farmer', 'woman', 'olderAdult', 'disability', 'other'];
 const ages = ['Under 18', '18–24', '25–44', '45+'] as const;
 const steps = ['profile', 'results', 'details', 'documents', 'draft'] as const;
 
@@ -594,6 +655,7 @@ export default function App() {
   const [lang, setLang] = useState<Language>('en');
   const [screen, setScreen] = useState<Screen>('welcome');
   const [profile, setProfile] = useState<Profile>(initialProfile);
+  const [selectedCategory, setSelectedCategory] = useState<GroupId | ''>('student');
   const [schemeId, setSchemeId] = useState<SchemeId>('pm-usp-csss');
   const [answers, setAnswers] = useState<CombinedEligibilityAnswers>({ applicationType: 'fresh' });
   const [kisanDocStatus, setKisanDocStatus] = useState<Record<string, 'available' | 'need_to_obtain' | 'not_applicable'>>({
@@ -954,56 +1016,116 @@ export default function App() {
               <h1>{t.welcomeTitle}</h1>
               <p className="welcome-intro">{t.welcomeBody}</p>
 
-              {/* Supported Schemes Summary Cards */}
-              <div className="scheme-card-grid" style={{ marginTop: '20px' }}>
-                {schemes.map((s) => {
-                  const isCurrent = s.id === schemeId;
-                  const Icon = s.id === 'pm-kisan' ? Tractor : s.id === 'mahtari-vandan' ? Heart : GraduationCap;
-                  const catLabel =
-                    s.category === 'farmer' ? (lang === 'hi' ? 'किसान सहायता' : 'Farmer Support') :
-                    s.category === 'woman' ? (lang === 'hi' ? 'महिला कल्याण' : 'Women & Family Welfare') :
-                    (lang === 'hi' ? 'उच्च शिक्षा छात्रवृत्ति' : 'Higher Education');
-                  return (
-                    <article
-                      key={s.id}
-                      className={`scheme-summary-card ${isCurrent ? 'active-scheme' : ''}`}
-                      onClick={() => { setSchemeId(s.id as SchemeId); begin(false, s.category); }}
-                      role="button"
-                      tabIndex={0}
-                    >
-                      <div>
-                        <div className="scheme-card-top">
-                          <span className="scheme-card-icon"><Icon size={20} /></span>
-                          <span className="scheme-card-cat">{catLabel}</span>
-                        </div>
-                        <h2 className="scheme-card-title">{s.shortName[lang]}</h2>
-                        <span className="scheme-card-benefit">{s.benefits.summary[lang]}</span>
-                        <p className="scheme-card-desc">{s.overview[lang]}</p>
+              {/* Category Quick Selector */}
+              <div className="hero-category-box">
+                <span className="hero-category-label">{t.categoryChooseTitle}</span>
+                <div className="category-chips-row" role="radiogroup" aria-label={t.categoryChooseTitle}>
+                  <button
+                    type="button"
+                    className={`category-chip-btn ${selectedCategory === 'student' ? 'selected' : ''}`}
+                    onClick={() => {
+                      setSelectedCategory('student');
+                      setSchemeId('pm-usp-csss');
+                    }}
+                    aria-pressed={selectedCategory === 'student'}
+                  >
+                    <GraduationCap size={16} />
+                    <span>{t.catStudent}</span>
+                  </button>
+                  <button
+                    type="button"
+                    className={`category-chip-btn ${selectedCategory === 'farmer' ? 'selected' : ''}`}
+                    onClick={() => {
+                      setSelectedCategory('farmer');
+                      setSchemeId('pm-kisan');
+                    }}
+                    aria-pressed={selectedCategory === 'farmer'}
+                  >
+                    <Tractor size={16} />
+                    <span>{t.catFarmer}</span>
+                  </button>
+                  <button
+                    type="button"
+                    className={`category-chip-btn ${selectedCategory === 'woman' ? 'selected' : ''}`}
+                    onClick={() => {
+                      setSelectedCategory('woman');
+                      setSchemeId('mahtari-vandan');
+                    }}
+                    aria-pressed={selectedCategory === 'woman'}
+                  >
+                    <Heart size={16} />
+                    <span>{t.catWoman}</span>
+                  </button>
+                  <button
+                    type="button"
+                    className={`category-chip-btn ${selectedCategory === 'other' ? 'selected' : ''}`}
+                    onClick={() => setSelectedCategory('other')}
+                    aria-pressed={selectedCategory === 'other'}
+                  >
+                    <UserRound size={16} />
+                    <span>{t.catOther}</span>
+                  </button>
+                </div>
+                {selectedCategory === 'other' && (
+                  <div className="category-other-notice">
+                    <Info size={16} />
+                    <div>
+                      {t.catOtherNotice}
+                      <div style={{ marginTop: '6px' }}>
+                        <a href="https://www.myscheme.gov.in" target="_blank" rel="noopener noreferrer" style={{ color: '#964724', fontWeight: 700, textDecoration: 'underline' }}>
+                          {lang === 'en' ? 'Open official myScheme.gov.in portal' : 'आधिकारिक myScheme.gov.in पोर्टल खोलें'} <ExternalLink size={12} style={{ display: 'inline', verticalAlign: 'middle' }} />
+                        </a>
                       </div>
-                      <div className="scheme-card-footer">
-                        <span>{lang === 'en' ? 'Explore this scheme' : 'इस योजना को देखें'}</span>
-                        <ArrowRight size={15} />
-                      </div>
-                    </article>
-                  );
-                })}
+                    </div>
+                  </div>
+                )}
               </div>
 
+              {/* Main Actions: Find schemes (Primary) & Browse schemes (Secondary) */}
               <div className="welcome-actions">
-                <button className="button button-primary button-large" onClick={() => begin(true, 'student')}>
-                  {t.startSample} ({lang === 'en' ? 'Student' : 'विद्यार्थी'})<ArrowRight size={18} />
+                <button
+                  className="button button-primary button-large"
+                  onClick={() => begin(false, selectedCategory ? (selectedCategory as GroupId) : 'student')}
+                >
+                  {t.findSchemesBtn} <ArrowRight size={18} />
                 </button>
-                <button className="button button-secondary button-large" onClick={() => begin(true, 'farmer')}>
-                  {t.startSample} ({lang === 'en' ? 'Farmer' : 'किसान'})<ArrowRight size={18} />
-                </button>
-                <button className="button button-secondary button-large" onClick={() => begin(true, 'woman')}>
-                  {t.startSample} ({lang === 'en' ? 'Woman' : 'महिला'})<ArrowRight size={18} />
-                </button>
-                <button className="button button-secondary button-large" onClick={() => begin(false)}>
-                  {t.startFresh}
+                <button
+                  className="button button-secondary button-large"
+                  onClick={() => {
+                    const el = document.getElementById('schemes-showcase');
+                    if (el) {
+                      el.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
+                >
+                  <BookOpen size={16} /> {t.browseSchemesBtn}
                 </button>
               </div>
-              <div className="hero-foot"><ShieldCheck size={16} />{t.trustedLabel}</div>
+
+              {/* Guidance Aid & Disclaimer Banner */}
+              <div className="disclaimer-banner">
+                <Info size={17} />
+                <div>
+                  <strong>{lang === 'en' ? 'Guidance aid: ' : 'मार्गदर्शन सहायता: '}</strong>
+                  {t.disclaimerNote}
+                </div>
+              </div>
+
+              {/* Discreet Demo Sample Journeys for Testing */}
+              <div style={{ marginTop: '16px' }}>
+                <span style={{ fontSize: '11px', color: '#6e695f' }}>{t.trySampleLabel} </span>
+                <button className="sample-helper-link" onClick={() => begin(true, 'student')}>
+                  {lang === 'en' ? 'Student (Aarav)' : 'विद्यार्थी (आरव)'}
+                </button>
+                <span style={{ margin: '0 6px', color: '#ccc' }}>·</span>
+                <button className="sample-helper-link" onClick={() => begin(true, 'farmer')}>
+                  {lang === 'en' ? 'Farmer (Ramesh)' : 'किसान (रमेश)'}
+                </button>
+                <span style={{ margin: '0 6px', color: '#ccc' }}>·</span>
+                <button className="sample-helper-link" onClick={() => begin(true, 'woman')}>
+                  {lang === 'en' ? 'Woman (Geeta)' : 'महिला (गीता)'}
+                </button>
+              </div>
             </section>
 
             <section className="welcome-illustration" aria-label={t.heroNote}>
@@ -1042,6 +1164,144 @@ export default function App() {
               <span className="welcome-caption">{t.heroNote}</span>
             </section>
           </div>
+
+          {/* 3 Simple Steps User Journey Section */}
+          <section className="journey-section">
+            <div className="journey-header">
+              <h2>{t.journeyHeading}</h2>
+              <p>{t.journeySubhead}</p>
+            </div>
+            <div className="three-steps-grid">
+              <div className="journey-step-card">
+                <span className="journey-step-number">1</span>
+                <h3>{t.journeyStep1Title}</h3>
+                <p>{t.journeyStep1Desc}</p>
+              </div>
+              <div className="journey-step-card">
+                <span className="journey-step-number">2</span>
+                <h3>{t.journeyStep2Title}</h3>
+                <p>{t.journeyStep2Desc}</p>
+              </div>
+              <div className="journey-step-card">
+                <span className="journey-step-number">3</span>
+                <h3>{t.journeyStep3Title}</h3>
+                <p>{t.journeyStep3Desc}</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Supported Schemes Showcase with Scannable Scheme Cards */}
+          <section id="schemes-showcase" className="schemes-showcase-section">
+            <div className="showcase-header">
+              <h2>{t.browseAllSchemesHeading}</h2>
+              <p>{t.browseAllSchemesSubhead}</p>
+            </div>
+            <div className="scheme-card-grid">
+              {schemes.map((s) => {
+                const Icon = s.id === 'pm-kisan' ? Tractor : s.id === 'mahtari-vandan' ? Heart : GraduationCap;
+                const catLabel =
+                  s.category === 'farmer' ? t.catFarmer :
+                  s.category === 'woman' ? t.catWoman : t.catStudent;
+
+                return (
+                  <article key={s.id} className="scannable-scheme-card">
+                    <div>
+                      <div className="scheme-card-header">
+                        <div className="scheme-header-title-box">
+                          <span className="scheme-card-icon"><Icon size={20} /></span>
+                          <div>
+                            <span className="scheme-card-cat">{catLabel}</span>
+                            <h3 className="scheme-card-title">{s.shortName[lang]}</h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      {/* Intended Audience */}
+                      <div className="scheme-audience-row">
+                        <Users size={15} />
+                        <span><strong>{t.intendedAudienceLabel}</strong> {s.intendedAudience[lang]}</span>
+                      </div>
+
+                      {/* Benefit */}
+                      <div>
+                        <span className="scheme-benefit-pill">
+                          <IndianRupee size={15} />
+                          <span>{s.benefits.summary[lang]}</span>
+                        </span>
+                      </div>
+
+                      {/* Short Eligibility Summary & Why it may match */}
+                      <div className="scheme-scannable-block">
+                        <div className="scheme-block-title">
+                          <span>{t.whyMayMatchLabel}</span>
+                          <span className="cautious-tag">{t.mayMatchPill}</span>
+                        </div>
+                        <ul className="scheme-rules-bullets">
+                          {s.eligibilitySummary[lang].map((rule, idx) => (
+                            <li key={idx}>{rule}</li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Documents to prepare */}
+                      <div className="scheme-scannable-block" style={{ background: '#ffffff' }}>
+                        <div className="scheme-block-title">
+                          <span>{t.docsToPrepareLabel}</span>
+                        </div>
+                        <p className="scheme-docs-summary">{s.documentsSummary[lang]}</p>
+                      </div>
+
+                      {/* Official source and last-checked date */}
+                      <div className="scheme-card-source-bar">
+                        <ShieldCheck size={14} color="#1d5c43" />
+                        <span>
+                          {t.sourceLabel}{' '}
+                          <a href={s.sourceUrl} target="_blank" rel="noopener noreferrer">
+                            {s.sourceName}
+                          </a>
+                        </span>
+                        <span className="freshness-dot">·</span>
+                        <Clock size={13} />
+                        <span>{t.checkedDateLabel} {s.sourceCheckedDate}</span>
+                      </div>
+                    </div>
+
+                    {/* Clear 3 Actions */}
+                    <div className="scheme-card-actions-grid">
+                      <button
+                        type="button"
+                        className="scheme-action-subbtn"
+                        onClick={() => {
+                          setSchemeId(s.id as SchemeId);
+                          setScreen('results');
+                        }}
+                      >
+                        <BookOpen size={14} /> {t.viewDetailsBtn}
+                      </button>
+                      <button
+                        type="button"
+                        className="scheme-action-subbtn"
+                        onClick={() => {
+                          setSchemeId(s.id as SchemeId);
+                          setScreen('documents');
+                        }}
+                      >
+                        <ClipboardCheck size={14} /> {t.prepareDocsBtn}
+                      </button>
+                      <button
+                        type="button"
+                        className="scheme-action-portal-btn portal-btn-full"
+                        onClick={() => window.open(s.applicationUrl, '_blank', 'noopener,noreferrer')}
+                      >
+                        <span>{t.continueOnPortalBtn}</span>
+                        <ExternalLink size={14} />
+                      </button>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+          </section>
 
           <section className="privacy-panel">
             <span className="privacy-icon"><LockKeyhole size={19} /></span>
@@ -1122,8 +1382,17 @@ export default function App() {
                       <Field label={t.group} why={t.groupWhy} htmlFor="group">
                         <select id="group" value={profile.group} onChange={(e) => updateProfile('group', e.target.value)} required>
                           <option value="">{t.choose}</option>
-                          {groupIds.map((g, i) => <option value={g} key={g}>{t.groups[i]}</option>)}
+                          <option value="student">{t.catStudent}</option>
+                          <option value="farmer">{t.catFarmer}</option>
+                          <option value="woman">{t.catWoman}</option>
+                          <option value="other">{t.catOther}</option>
                         </select>
+                        {profile.group === 'other' && (
+                          <div className="category-other-notice" style={{ marginTop: '8px' }}>
+                            <Info size={14} />
+                            <div>{t.catOtherNotice}</div>
+                          </div>
+                        )}
                       </Field>
                       <Field label={t.age} why={t.ageWhy} htmlFor="age">
                         <select id="age" value={profile.ageBand} onChange={(e) => updateProfile('ageBand', e.target.value)} required>
@@ -1171,7 +1440,7 @@ export default function App() {
                     <div className="form-actions">
                       <span className="form-meta"><span className="required-star">*</span> {t.required}</span>
                       <button type="submit" disabled={!profile.group || !profile.ageBand || !profile.state} className="button button-primary">
-                        {t.profileContinue}<ArrowRight size={17} />
+                        {t.seeMatchesBtn}<ArrowRight size={17} />
                       </button>
                     </div>
                   </form>
@@ -1236,7 +1505,14 @@ export default function App() {
                       <StatusBadge status={evaluation.status} label={evaluation.status === 'possible' ? t.matchPossible : evaluation.status === 'no_match' ? t.matchNo : t.matchNeed} />
                     </div>
 
-                    <h2 style={{ fontSize: '18px', margin: '12px 0 8px' }}>{scheme.title[lang]}</h2>
+                    <h2 style={{ fontSize: '18px', margin: '12px 0 6px' }}>{scheme.title[lang]}</h2>
+
+                    {/* Intended Audience */}
+                    <div className="scheme-audience-row" style={{ margin: '4px 0 12px' }}>
+                      <Users size={15} />
+                      <span><strong>{t.intendedAudienceLabel}</strong> {scheme.intendedAudience[lang]}</span>
+                    </div>
+
                     <p style={{ fontSize: '12px', lineHeight: '1.65', color: '#4a473f', margin: '0 0 16px' }}>{scheme.overview[lang]}</p>
 
                     {/* Benefit Tiers */}
@@ -1420,6 +1696,18 @@ export default function App() {
                       </div>
                     </div>
 
+                    {/* Documents to Prepare block */}
+                    <div className="scheme-scannable-block" style={{ marginTop: '16px', background: '#ffffff' }}>
+                      <strong style={{ fontSize: '12px', color: '#242321' }}>{t.docsToPrepareLabel}</strong>
+                      <p style={{ margin: '4px 0 0', fontSize: '11px', color: '#4a473f', lineHeight: '1.5' }}>{scheme.documentsSummary[lang]}</p>
+                    </div>
+
+                    {/* Preliminary caution note */}
+                    <div style={{ marginTop: '12px', padding: '10px 14px', background: '#fcfaf6', border: '1px solid #ebd9c5', borderRadius: '8px', fontSize: '11px', color: '#6d450f', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                      <Info size={15} style={{ flexShrink: 0 }} />
+                      <span>{t.preliminaryNotice}</span>
+                    </div>
+
                     {/* Source attribution & guidance note */}
                     <div className="callout-box callout-notice" style={{ marginTop: '16px' }}>
                       <ShieldCheck size={16} />
@@ -1427,9 +1715,17 @@ export default function App() {
                     </div>
                   </article>
 
-                  <div className="section-actions">
-                    <button className="button button-primary" onClick={goNext}>
-                      {t.checkEligibilityBtn}<ArrowRight size={17} />
+                  <div className="section-actions" style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', justifyContent: 'space-between', alignItems: 'center' }}>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+                      <button className="button button-primary" onClick={goNext}>
+                        {t.checkEligibilityBtn}<ArrowRight size={17} />
+                      </button>
+                      <button className="button button-secondary" onClick={() => setScreen('documents')}>
+                        <ClipboardCheck size={16} /> {t.prepareDocsBtn}
+                      </button>
+                    </div>
+                    <button className="button button-secondary" onClick={openOfficialPortal}>
+                      <span>{t.continueOnPortalBtn}</span> <ExternalLink size={15} />
                     </button>
                   </div>
                 </section>

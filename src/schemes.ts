@@ -53,6 +53,9 @@ export type Scheme = {
   sourceNotice: Record<Language, string>;
   datesNotice: Record<Language, string>;
   overview: Record<Language, string>;
+  intendedAudience: Record<Language, string>;
+  eligibilitySummary: Record<Language, string[]>;
+  documentsSummary: Record<Language, string>;
   benefits: {
     summary: Record<Language, string>;
     items: BenefitItem[];
@@ -158,6 +161,28 @@ export const schemes: Scheme[] = [
     overview: {
       en: 'The PM-USP Central Sector Scheme of Scholarship provides financial assistance to meritorious students from low-income families to meet day-to-day expenses while pursuing regular higher education in recognized colleges and universities across India.',
       hi: 'पीएम-यूएसपी केंद्रीय क्षेत्र छात्रवृत्ति योजना कम आय वाले परिवारों के मेधावी विद्यार्थियों को भारत भर के मान्यता प्राप्त कॉलेजों और विश्वविद्यालयों में नियमित उच्च शिक्षा प्राप्त करने के दौरान दैनिक खर्चों को पूरा करने के लिए वित्तीय सहायता प्रदान करती है।',
+    },
+    intendedAudience: {
+      en: 'College and university students pursuing regular (full-time) higher education degrees',
+      hi: 'नियमित (पूर्णकालिक) उच्च शिक्षा डिग्री पाठ्यक्रमों में अध्ययनरत महाविद्यालय व विश्वविद्यालय विद्यार्थी',
+    },
+    eligibilitySummary: {
+      en: [
+        'Above 80th percentile in relevant Class 12 board examination',
+        'Enrolled in recognized regular degree course in college or university',
+        'Gross parental / family annual income up to ₹4,50,000',
+        'Not receiving any other government scholarship or fee waiver',
+      ],
+      hi: [
+        'संबंधित कक्षा 12वीं बोर्ड परीक्षा में 80वें पर्सेंटाइल से ऊपर रैंक',
+        'मान्यता प्राप्त कॉलेज/विश्वविद्यालय में नियमित डिग्री कोर्स में नामांकित',
+        'सकल पारिवारिक वार्षिक आय ₹4,50,000 या उससे कम',
+        'किसी अन्य सरकारी छात्रवृत्ति या शुल्क छूट का लाभ न ले रहे हों',
+      ],
+    },
+    documentsSummary: {
+      en: 'Class 12 Marksheet, College Admission / Bonafide Proof, Income Certificate, and Aadhaar-seeded Bank Passbook.',
+      hi: 'कक्षा 12वीं की अंकसूची, कॉलेज प्रवेश / बोनाफाइड प्रमाण पत्र, आय प्रमाण पत्र और आधार-सीडेड बैंक पासबुक।',
     },
     benefits: {
       summary: {
@@ -444,6 +469,28 @@ export const schemes: Scheme[] = [
       en: 'PM-KISAN provides income support of ₹6,000 per year to eligible landholding farmer families across the country in three equal installments of ₹2,000 each, normally every four months, credited directly into Aadhaar-seeded bank accounts.',
       hi: 'पीएम-किसान योजना देश भर के पात्र भूमिधारक किसान परिवारों को ₹6,000 प्रति वर्ष की आय सहायता प्रदान करती है, जो सामान्यतः हर चार माह में ₹2,000 की तीन समान किस्तों में सीधे आधार-सीडेड बैंक खाते में भेजी जाती है।',
     },
+    intendedAudience: {
+      en: 'Small and landholding farmer families with cultivable landholdings',
+      hi: 'खेती योग्य भूमि के स्वामित्व वाले लघु व सीमांत किसान परिवार',
+    },
+    eligibilitySummary: {
+      en: [
+        'Farmer family holding cultivable land registered in official land records',
+        'Active bank account seeded with Aadhaar and enabled for DBT',
+        'Family does not hold constitutional posts or regular govt employment',
+        'Family did not pay Income Tax in the previous assessment year',
+      ],
+      hi: [
+        'सरकारी भू-राजस्व रिकॉर्ड में परिवार के नाम पर खेती योग्य भूमि दर्ज हो',
+        'आधार से जुड़ा और डीबीटी सक्षम सक्रिय बैंक खाता',
+        'परिवार का कोई सदस्य संवैधानिक पद या नियमित सरकारी सेवा में न हो',
+        'परिवार ने पिछले वर्ष आयकर (Income Tax) का भुगतान न किया हो',
+      ],
+    },
+    documentsSummary: {
+      en: 'Aadhaar Card, Landownership Record (Khasra/Khatauni), and Bank Passbook (NPCI/e-KYC active).',
+      hi: 'आधार कार्ड, भू-अभिलेख (खसरा/खतौनी) और बैंक पासबुक (एनपीसीआई/ई-केवाईसी सक्रिय)।',
+    },
     benefits: {
       summary: {
         en: '₹6,000 per year per eligible farmer family in three 4-monthly installments of ₹2,000 each via Direct Benefit Transfer (DBT).',
@@ -697,6 +744,28 @@ export const schemes: Scheme[] = [
     overview: {
       en: 'Mahtari Vandan Yojana provides monthly financial assistance of ₹1,000 (₹12,000 annually) directly into the Aadhaar-linked individual bank account of eligible women in Chhattisgarh to support financial independence, nutrition, and family health.',
       hi: 'मह्तारी वंदन योजना छत्तीसगढ़ की पात्र महिलाओं के आधार से जुड़े व्यक्तिगत बैंक खाते में डीबीटी के माध्यम से ₹1,000 प्रति माह (₹12,000 प्रति वर्ष) की वित्तीय सहायता प्रदान करती है, ताकि महिलाओं के आर्थिक स्वावलंबन, स्वास्थ्य एवं पोषण स्तर में सुधार हो सके।',
+    },
+    intendedAudience: {
+      en: 'Resident women of Chhattisgarh aged 21 or older (married, widowed, divorced, or abandoned)',
+      hi: 'छत्तीसगढ़ की 21 वर्ष या उससे अधिक आयु की स्थानीय निवासी महिलाएँ (विवाहित, विधवा, तलाकशुदा या परित्यक्ता)',
+    },
+    eligibilitySummary: {
+      en: [
+        'Local resident of Chhattisgarh state',
+        'Minimum age of 21 years as of January 1 of the application year',
+        'Individual savings bank account in woman’s own name with active Aadhaar DBT (joint accounts not accepted)',
+        'Family is not an income tax payee or permanent government employee',
+      ],
+      hi: [
+        'छत्तीसगढ़ राज्य की स्थानीय निवासी महिला',
+        'आवेदन वर्ष की 1 जनवरी को न्यूनतम आयु 21 वर्ष या उससे अधिक',
+        'स्वयं के नाम पर व्यक्तिगत बचत बैंक खाता व सक्रिय आधार डीबीटी (संयुक्त खाता मान्य नहीं)',
+        'परिवार का कोई सदस्य आयकर दाता या नियमित सरकारी कर्मचारी न हो',
+      ],
+    },
+    documentsSummary: {
+      en: 'Individual Bank Passbook with DBT, Aadhaar Card, Chhattisgarh Residence Proof, Age Proof, and Marital Status Certificate.',
+      hi: 'व्यक्तिगत बैंक पासबुक (सक्रिय डीबीटी), आधार कार्ड, छत्तीसगढ़ निवास प्रमाण पत्र, आयु प्रमाण और वैवाहिक स्थिति प्रमाण।',
     },
     benefits: {
       summary: {
