@@ -1,0 +1,16 @@
+# JanSahay
+
+> JanSahay is an open prototype for exploring government-benefit matches, understanding requirements, checking document readiness, and preparing editable application drafts.
+
+## Supported Schemes
+- **PM-USP CSSS (Scholarship)**: Central Sector Scheme of Scholarship for College and University Students. Up to ₹20,000/yr for students above the 80th percentile.
+- **PM-KISAN Samman Nidhi**: Direct income support of ₹6,000/yr for landholding farmer families.
+- **Mahtari Vandan Yojana**: Direct benefit transfer of ₹1,000/month (₹12,000/yr) for eligible women in Chhattisgarh.
+
+## Core Features
+- **Scheme Matching**: Transparent, rule-based preliminary eligibility screening.
+- **Document Readiness Checklist**: Structured verification without requiring document uploads.
+- **Application Worksheet**: Non-sensitive preparation draft leaving sensitive fields blank for privacy.
+- **Document Assistant**: In-memory document readability analysis using Google's Gemini API for PM-USP.
+- **Official Handoff**: Direct links to official government portals and facilitation centers.
+
